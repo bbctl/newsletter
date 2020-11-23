@@ -41,27 +41,27 @@ def get_header(app):
 def get_menu():
     menu = html.Div(
         [
-            dcc.Link(
+            html.A(
                 "U.S. 2021 Holiday Calendar",
                 href="https://centurylinkenterprise.us.newsweaver.com/centurylinkhumanresources.16yj0vo8jm/x4hs10nc4zthrtishrij6e/external?email=true&a=6&p=4405827&t=680337",
                 className="tab first",
             ),
-            dcc.Link(
+            html.A(
                 "COVID-19 Resources",
                 href="https://centurylinkenterprise.us.newsweaver.com/centurylinkhumanresources.2f5cdlil3r/j2fewl5v158hrtishrij6e/external?email=true&a=5&p=4318228&t=1402038",
                 className="tab",
             ),
-            dcc.Link(
+            html.A(
                 "Internal Jobs",
                 href="https://internaljobs.centurylink.com/?locale=en_US",
                 className="tab",
             ),
-            dcc.Link(
+            html.A(
                 "Flu Shot Program",
                 href="https://centurylink.sharepoint.com/sites/ILHR/SitePages/Wellness-US-Prevention.aspx#flu-shot-program",
                 className="tab",
             ),
-            dcc.Link(
+            html.A(
                 "HealthVUE App",
                 href="https://centurylink.sharepoint.com/SitePages/HealthVUE-Launch.aspx",
                 className="tab",
