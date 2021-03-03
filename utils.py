@@ -40,7 +40,9 @@ def get_header(app):
 
 def get_menu():
     menu = html.Div(
-        [
+        [   
+            html.H5("Helpful HR Links:", style={"color": "#ffffff"}),
+            html.Br(),
             html.A(
                 "U.S. 2021 Holiday Calendar",
                 href="https://centurylinkenterprise.us.newsweaver.com/centurylinkhumanresources.16yj0vo8jm/x4hs10nc4zthrtishrij6e/external?email=true&a=6&p=4405827&t=680337",
@@ -57,13 +59,13 @@ def get_menu():
                 className="tab",
             ),
             html.A(
-                "Flu Shot Program",
-                href="https://centurylink.sharepoint.com/sites/ILHR/SitePages/Wellness-US-Prevention.aspx#flu-shot-program",
+                "HealthVUE App",
+                href="https://centurylink.sharepoint.com/SitePages/HealthVUE-Launch.aspx",
                 className="tab",
             ),
             html.A(
-                "HealthVUE App",
-                href="https://centurylink.sharepoint.com/SitePages/HealthVUE-Launch.aspx",
+                "Richard Batelaan Replay of Jan. 19 All-Hands",
+                href="https://web.microsoftstream.com/video/b26ebeb5-e6d4-4c34-9d69-4ebe6184be1f",
                 className="tab",
             ),
         ],
